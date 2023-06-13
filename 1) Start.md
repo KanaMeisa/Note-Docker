@@ -1,11 +1,11 @@
-# Docker
+# Docker S
 
 ## Hello world
 
 Docker allow you to run applications in containers, here is a example to print "Hello World!".
 
 ```shell
-sudo docker ubuntu:15.10 /bin/echo "Hello, world!"
+$ sudo docker ubuntu:15.10 /bin/echo "Hello, world!"
 ```
 
 Parameters:
@@ -119,7 +119,7 @@ Output details:
 Use the ``docker logs`` command inside the host host to view the standard output inside the container:
 
 ```shell
-kana@arch:~$ docker logs b42a1c25658d
+$ docker logs b42a1c25658d
 ```
 
 ```shell
@@ -134,7 +134,7 @@ hello world
 
 
 ```shell
-kana@arch:~$ docker logs stupefied_blackwell
+$ docker logs stupefied_blackwell
 ```
 
 ```shell
@@ -162,7 +162,7 @@ We use the **docker stop** command to stop the container.
 Looking through **docker ps**, the container has stopped working:
 
 ```shell
-kana@arch:~$ docker ps
+$ docker ps
 ```
 
 You can see that the container is no longer there.
@@ -170,6 +170,6 @@ You can see that the container is no longer there.
 You can also stop it with the following command:
 
 ```shell
-kana@arch:~$ docker stop stupefied_blackwell
+$ docker stop stupefied_blackwell
 ```
 
